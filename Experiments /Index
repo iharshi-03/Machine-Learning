@@ -1,0 +1,20 @@
+Implement and demonstrate the FIND-S algorithm for finding the most specific hypothesis based on a given set of training data samples.
+For a given set of training data examples stored in a .CSV file, implement and demonstrate the Candidate-Elimination algorithm in python to output a description of the set of all hypotheses consistent with the training examples
+Demonstrate the working of the decision tree based ID3 algorithm. Use an appropriate data set for building the decision tree and apply this knowledge to classify a new sample.
+Build an Artificial Neural Network by implementing the Backpropagation algorithm and test the same using appropriate data sets.
+Write a program for Implementation of K-Nearest Neighbours (K-NN) in Python
+Write a program to implement Naïve Bayes algorithm in python and to display the results using confusion matrix and accuracy.
+Write a program to implement Logistic Regression (LR) algorithm in python
+Write a program to implement Linear Regression (LR) algorithm in python
+Compare Linear and Polynomial Regression using Python
+Write a Python Program to Implement Expectation & Maximization Algorithm
+Write a program for the task of Credit Score Classification
+Implement Iris Flower Classification using KNN
+Implement the Car Price Prediction Model using Python
+Implement House price Prediction using appropriate machine learning algorithm
+Implement Iris Flower Classification using Naive Bayes classifier
+Compare different types Classification Algorithms and evaluate their performance.
+Implement Mobile Price Prediction using appropriate machine learning algorithm
+Implement Perceptron based IRIS classification
+Implementation of Naive Bayes classification for Bank Loan prediction
+Implement Future Sales Prediction using a suitable machine learning algorithm
