@@ -1,0 +1,11 @@
+from sklearn.tree import DecisionTreeClassifier
+import pandas as pd
+data = {'RAM': [4,6,8,4], 'Storage': [64,128,256,64], 'PriceRange': [1,2,3,1]}
+df = pd.DataFrame(data)
+X = df[['RAM','Storage']]
+y = df['PriceRange']
+model = DecisionTreeClassifier()
+model.fit(X, y)
+ram = int(input("Enter RAM: "))
+storage = int(input("Enter Storage: "))
+print("Predicted Price Range:", model.predict([[ram, storage]])[0])
