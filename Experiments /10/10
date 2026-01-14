@@ -1,0 +1,6 @@
+from sklearn.mixture import GaussianMixture
+from sklearn.datasets import load_iris
+iris = load_iris()
+model = GaussianMixture(n_components=3)
+model.fit(iris.data)
+print("Means:", model.means_)
