@@ -1,0 +1,10 @@
+from sklearn.naive_bayes import GaussianNB
+from sklearn.datasets import load_iris
+iris = load_iris()
+X, y = iris.data, iris.target
+model = GaussianNB()
+model.fit(X, y)
+new = []
+for i in range(4):
+    new.append(float(input(f"Enter feature {i+1}: ")))
+print("Predicted class:", iris.target_names[model.predict([new])[0]])
