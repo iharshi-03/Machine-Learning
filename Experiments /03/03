@@ -1,0 +1,13 @@
+from sklearn import datasets
+from sklearn.tree import DecisionTreeClassifier, plot_tree
+import matplotlib.pyplot as plt
+iris = datasets.load_iris()
+X = iris.data
+y = iris.target
+clf = DecisionTreeClassifier()
+clf.fit(X, y)
+new_sample = []
+for i in range(4):
+    new_sample.append(float(input(f"Enter feature {i+1}: ")))
+prediction = clf.predict([new_sample])
+print("Predicted class:", iris.target_names[prediction[0]])
