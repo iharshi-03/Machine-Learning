@@ -1,0 +1,15 @@
+import numpy as np
+data = []
+num_attributes = int(input("Enter number of attributes: "))
+print("Enter training data:")
+for _ in range(int(input("Number of examples: "))):
+    data.append(input().split())
+specific_h = ['0'] * num_attributes
+for example in data:
+    if example[-1] == 'Yes':
+        for i in range(num_attributes):
+            if specific_h[i] == '0':
+                specific_h[i] = example[i]
+            elif specific_h[i] != example[i]:
+                specific_h[i] = '?'
+print("Most specific hypothesis:", specific_h)
